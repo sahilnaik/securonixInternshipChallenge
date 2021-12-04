@@ -44,8 +44,11 @@ app.engine("handlebars", engine({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 configRoutes(app);
+const PORT = process.env.PORT ||5000;
+ 
+// Executing the server on given port number
 
-app.listen(8000, () => {
+app.listen(PORT, () => {
   console.log("We've now got a server!");
 
 });
