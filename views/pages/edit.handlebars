@@ -1,0 +1,427 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Edit Form</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../public/private.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <h1>Threat Hunting</h1>
+  <form method="post" id="myForm" action="/private">
+    <div class="container">
+      <h2>Edit Form</h2>
+      <p class="note">Make the necessary changes</p>
+      <hr />
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+          <label for="est">Establishing threat hunting goals.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+          <select id="est" name="est">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+          <label for="cur">Current coverage of threat hunting goals.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="cur" name="cur">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+          <label for="hir">Hirining personnel dedicated to threat hunting.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="hir" name="hir">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+          <label for="for">Formulating a threat hunting hypothesis.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="for" name="for">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="acq">Acquiring specialized datasets and tools.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="acq" name="acq">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="thr">Threat hunting training.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="thr" name="thr">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="soc">SOC members who can develop needed cybersecurity
+            scripts.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="soc" name="soc">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="utFull">Utlzing full packet capture.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="utFull" name="utFull">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="utWin">Utlzing windows registry keys.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="utWin" name="utWin">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="utSys">Utlzing system memory.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="utSys" name="utSys">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" style="float: none; margin: 0 auto;">
+
+          <label for="scale">Ability to scale threat hunting program.</label>
+        </div>
+        <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+          <select id="scale" name="scale">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85</option>
+            <option value="90">90</option>
+            <option value="95">95</option>
+            <option value="100">100</option>
+            <option value="-1">-1</option>
+          </select>
+        </div>
+      </div>
+      <br />
+
+    </div>
+    <div class="row" id="subbutton">
+      <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+        <button type="submit" class="btn btn-primary" id="submitbtn">
+          Submit   
+        </button>
+      </div>
+  
+    </div>
+
+    <br>
+    <div class="row" id="backbutton">
+      <div class="col-sm-1" style="float: none; margin: 0 auto;">
+
+        <button type="button" class="btn btn-secondary" id="backbtn" onclick="window.location.href='/dashboard'">
+          Go back
+        </button>
+      </div>
+    </div>
+
+    <hr />
+  </form>
+  <br />
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"
+> </script>
+<script>
+  $("#est").val("{{est}}"); $("#cur").val("{{cur}}"); $("#hir").val("{{hir}}");
+  $("#for").val("{{fr}}"); $("#acq").val("{{acq}}"); $("#thr").val("{{thr}}");
+  $("#soc").val("{{soc}}"); $("#utFull").val("{{utFull}}"); $("#utWin").val("{{utWin}}");
+  $("#utSys").val("{{utSys}}"); $("#scale").val("{{scale}}");
+</script>
+</body>

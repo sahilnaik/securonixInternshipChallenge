@@ -1,0 +1,61 @@
+.start {
+  float: left;
+}
+.end {
+  float: right;
+  text-align: right;
+}
+.progress {
+  margin-bottom: 0;
+}
+.spacing {
+  height: 100px !important;
+  background-color: #ffffff;
+}
+.container {
+  border: solid 1px #cccccc;
+}
+.details {
+  padding: 50px;
+}
+.cont {
+  padding-left: 50px;
+}
+.manage {
+  background-color: crimson;
+}
+.use {
+  background-color: lightseagreen;
+}
+.define {
+  background-color: #13b4ff;
+}
+.foo {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+  background: #13b4ff;
+}
+.red {
+  background-color: crimson;
+}
+.green {
+  background-color: lightseagreen;
+}
+.info {
+  padding: 50px;
+  text-align: right;
+}
+h1 {
+  text-align: center;
+}
+#editbtn,
+#logoutbtn {
+  text-align: center;
+  width: 100px;
+}

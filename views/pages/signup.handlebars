@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8" />
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="../../public/user.css" />
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <form method="post" action="/signup" id="signup-form">
+    <label id="username-label" for="username">Set username:</label>
+    <input
+      id="username"
+      type="text"
+      name="username"
+      placeholder="Set a username"
+    />
+    <label id="password-label" for="password">Set password:</label>
+    <input
+      id="password"
+      type="password"
+      name="password"
+      placeholder="Set a password"
+    />
+    <p class="error">{{error}}</p>
+    <button type="submit" class="submitbtn">Sign In</button>
+    <br />
+    <br />
+    <a href="/">Already have an account? Click here to log-in</a>
+  </form>
+
+</body>

@@ -1,0 +1,20 @@
+.row:hover {
+  background-color: whitesmoke;
+}
+h1,
+h2,
+.note {
+  text-align: center;
+}
+#subbutton, #backbutton {
+  background-color: white;
+  align-items: center;
+}
+#logout {
+  text-align: center;
+}
+#submitbtn,
+#backbtn {
+  text-align: center;
+  width: 100px;
+}
